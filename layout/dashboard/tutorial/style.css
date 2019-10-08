@@ -1,0 +1,44 @@
+/*  a few basic resets */
+* {
+  box-sizing: border-box;
+}
+
+html,
+ul,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Defining the base-grid for the layout */
+.grid-wrapper {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-areas:
+  "sidenav header"
+  "sidenav main"
+  "sidenav footer"
+}
+
+
+.header {
+  grid-area: header;
+  background-color: #648ca6;
+}
+
+.sidenav {
+  grid-area: sidenav;
+  background-color: #8fd4d9;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #648ca6;
+}
