@@ -1,0 +1,62 @@
+/* This CSS will print because %message-shared is extended.
+This is called placeholder and it is only printed if extended */
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red; }
+
+.warning {
+  border-color: yellow; }
+
+.text-centered {
+  text-align: center; }
+
+body {
+  font: 100% Heveltica, sans-serif;
+  color: #333; }
+
+.nav {
+  text-align: end; }
+  .nav .logo {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 0; }
+  .nav ul {
+    display: inline-block;
+    padding: 0;
+    list-style: none; }
+  .nav li {
+    display: inline-block; }
+  .nav a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none; }
+
+.center {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px; }
+
+.container {
+  width: 100%; }
+
+[role="main"] {
+  float: left;
+  width: 62.5%;
+  background-color: #cccccc; }
+
+[role="complementary"] {
+  float: right;
+  width: 31.25%;
+  background-color: #cccccc; }
+
+/*# sourceMappingURL=test.css.map */
